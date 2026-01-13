@@ -1,0 +1,34 @@
+For Developent purpose, we can use single Worker Node to practice like below :
+> Minikube  --> single Node arachitecture
+k3d  etc..
+
+To create Kubernates Distribution to ready in prodcution system.
+ for example, linucx is open source, so on top of it, 
+ >Amazon created distribution called Amazon linux
+ > Redhat has its redhat OS
+ >Ubuntu  etc
+
+ And they provide support if any issues.
+
+ Similarly K8s has below destibutions
+ > Amazon has its own distribution --> EKS
+ > Redhat has its own distribution --> Openshift
+ > Vmware --> Tanzu
+ > Azure --> AKS
+ > rancher
+
+ If we have 100s of luster, it costs more if we use EKS cluster, so to use that we can use below  in order:
+
+ > Kubernates
+ > Openshift
+ > Rancher
+ >Tanzu
+ >EKS
+ >AKS
+ >GKE
+ >DKE
+
+ EKS --> maanged by amazon, if we install kubenates using below. 
+
+ > kops  --> mostly used , which managed by us only --> to upgrade, install,manage,deletions...we can use this
+ > kubeadm --> previously we used this but not required as upgrades will be more complicated and more manuall changes required.
